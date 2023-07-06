@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    color: aliceblue;
+    list-style: none;
+    background-color: black;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.list{
+    margin: 15px;
+    cursor: pointer;
+}
+.banner-img{
+    width: 300px;
+    height: 300px;
+}
+.banner-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    background-image: url("./images/background.png"), linear-gradient(45deg, rgb(3, 3, 3), rgb(53, 50, 50));
+}
+.title{
+    font-size: 54px;
+    font-weight: bold;
+}
+.title-des{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.btn{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(20, 49, 211);
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.about-content{
+    display: flex;
+    margin-top: 20px;
+    padding: 25px;
+    justify-content: space-around;
+}
+.about-title{
+    text-align: center;
+    font-size: 50px;
+}
+.about-container{
+    padding: 20px;
+
+}
+.services-container{
+    color: aliceblue;
+    background-image: url('./images/background.png'),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    padding: 50px;
+}
+.box{
+    width: 200px;
+    height: 280px;
+    padding: 15px;
+    box-shadow: 4px 2px 100px grey ;
+    border-radius: 10px;
+    text-align: center;
+}
+.box-img{
+    width: 70px;
+}
+.box-container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    
+}
